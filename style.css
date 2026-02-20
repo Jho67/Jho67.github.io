@@ -1,6 +1,3 @@
-/* ==================== */
-/* CSS Variables & Reset */
-/* ==================== */
 :root {
     --bg-dark: #0a0a0f;
     --bg-card: #12121a;
@@ -317,6 +314,28 @@ body {
 
 .project-card:hover .project-image img {
     transform: scale(1.05);
+}
+
+.project-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    background: linear-gradient(135deg, #0d0d15, #1a1a2e);
+}
+
+.btn-project {
+    background: var(--accent-gradient);
+    color: var(--bg-dark);
+    padding: 10px 24px;
+    font-size: 0.9rem;
+}
+
+.btn-project:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 212, 255, 0.5);
 }
 
 .project-info {
